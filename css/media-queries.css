@@ -1,0 +1,52 @@
+@media only screen and (max-width: 770px) {
+  .container {
+    margin: 10rem 5rem;
+    flex-direction: column-reverse;
+    min-width: 20rem;
+    justify-content: center;
+  }
+  .main__header {
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .paragraph {
+    font-size: 1.7rem;
+  }
+
+  .photo {
+    background-size: cover;
+    background-image: linear-gradient(
+        hsla(277, 70%, 40%, 0.6),
+        hsla(277, 70%, 40%, 0.6)
+      ),
+      url(../images/image-header-mobile.jpg);
+    height: 50rem;
+    padding: 24rem 7rem;
+    flex: 0;
+  }
+
+  .list {
+    display: block;
+    text-align: center;
+  }
+
+  .list__item {
+    margin: 2rem auto;
+    font-size: 3.5rem;
+  }
+
+  .list__item:not(:last-child) {
+    margin-bottom: 6rem;
+  }
+
+  .list__span {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 476px) {
+  html {
+    font-size: 50%;
+  }
+}
