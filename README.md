@@ -7,7 +7,10 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 **Desktop**
 ![Desktop](Stats_preview-desktop.png)
 
+
+
 **Mobile**
+
 ![Mobile](Stats_preview-mobile.png)
 
 ### Built with
